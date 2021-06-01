@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's Chat Page</title>
+    <!-- FireBase Links < -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <!-- > FireBase Links -->
+    <!-- Google Fonts < -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <!-- > Google Fonts -->
+    <!-- Bootstrap < -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- > Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="let's_chat_page.css">
+</head>
+
+<body>
+    <img class="icon" src="Icon_let's_chat.png" alt="">
+    <div class="wel_t">
+        <div class="wel_at"></div>
+        <span>
+            <h2 class="wel">Welcome </h2>
+            <h2 class="wel_a" id="username_h2"></h2>
+        </span>
+    </div>
+    <div class="mess_head">
+        Your Room
+    </div>
+    <img src="logout_arrow.png" class="logout_btn_icon">
+    <button class="logout_btn" onclick="logout_to_home()">Logout</button>
+    <div id="mess"></div>
+    <div class="inp_sen">
+        <input type="text" class="mess_inp" id="mess_inp_" placeholder="Enter Your Message Here">
+        <button class="mess_btn" onclick="send_the_message()"></button>
+    </div>
+    <script src="let's_chat_page.js"></script>
+</body>
+
+</html>

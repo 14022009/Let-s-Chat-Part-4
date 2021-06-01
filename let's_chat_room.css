@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    font-family: Comfortaa;
+    background-color: rgb(34, 79, 34);
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+::placeholder {
+    color: white;
+}
+
+.wel_t {
+    position: relative;
+    width: 760px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    top: 60px;
+    left: 323px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 50px 0px;
+}
+
+.wel_at {
+    position: relative;
+    width: 550px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0px 10px 10px 0px;
+    top: 0px;
+    left: 210px;
+}
+
+.wel {
+    position: relative;
+    top: -30px;
+    left: 40px;
+    color: white;
+    text-align: start;
+    width: 130px;
+    line-height: 0px;
+}
+
+.wel_a {
+    position: relative;
+    left: 220px;
+    color: black;
+    text-align: left;
+    width: 550px;
+    font-size: 40px;
+    top: -50px;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: transparent;
+    padding: 0px;
+    height: 663px;
+}
+
+.icon {
+    position: absolute;
+    top: -7px;
+    left: -7px;
+}
+
+.logout_btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    top: -50px;
+    left: 706px;
+    border: 0px;
+    color: white;
+    font-size: 24px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 50px 0px;
+    text-align: start;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.output_div {
+    height: 430px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 50px 0px;
+    color: black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.output_div_t {
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    line-height: 40px;
+}
+
+.output_div_head {
+    height: 60px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.rn_t {
+    position: absolute;
+    top: 360px;
+    left: 500px;
+    height: 60px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.rn_at {
+    position: absolute;
+    left: 200px;
+    height: 60px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0px 10px 10px 0px;
+    border: 0px;
+    color: white;
+    font-size: xx-large;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.addroom_btn {
+    color: black;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 450px;
+    left: 1000px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 50px 0px;
+    font-size: 24px;
+}

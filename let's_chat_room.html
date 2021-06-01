@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's Chat Room</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="let's_chat_room.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img class="icon" src="Icon_let's_chat.png" alt="">
+
+        <div class="wel_t">
+            <div class="wel_at"></div>
+            <span>
+                <h2 class="wel">Welcome </h2>
+                <h2 class="wel_a" id="username_h2"></h2>
+            </span>
+        </div>
+
+        <img src="logout_arrow.png" style="position: absolute; top: 20px; left: 1326px;opacity: 100%; z-index: 1;">
+        <button class="logout_btn" onclick="logout_to_home()">Logout</button>
+        <div class="output_div" id="output"></div>
+        <div class="output_div_head">
+
+            <p
+                style="font-family: Akronim; color: rgb(0, 0, 0); font-size: 80px; position: absolute; top: -25px; left: 70px;">
+                #</p>
+            <p style="position: absolute; top: 14px; color: rgb(0, 0, 0); font-size: 26px; left: 120px;">Trending Rooms
+            </p>
+        </div>
+
+        <div class="rn_t">
+            <p style="position: absolute; color: white; font-size: 24px; padding-left: 20px; line-height: 63px;">Room
+                Name </p>
+            <input class="rn_at" id="room_input" placeholder="Enter Room Name Here">
+        </div>
+        <p
+            style="font-family: Akronim; position: absolute; top: 426px; left: 998px; color: black; font-size: 70px; z-index: 1;">
+            #</p>
+        <button class="addroom_btn" onclick="add_the_room()">Add Room</button>
+
+    </div>
+
+
+
+
+    <script src="let's_chat_room.js"></script>
+</body>
+
+</html>
